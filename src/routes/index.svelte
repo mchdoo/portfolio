@@ -240,7 +240,6 @@
 <svelte:head>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <script src="https://kit.fontawesome.com/6218fb5311.js" crossorigin="anonymous"></script>
-    <link rel="preload" as="style" href="style.css">
 </svelte:head>
 
 <section class="section main">
@@ -313,7 +312,6 @@
 
     <div id="socials">
         <a target="_blank" href="https://github.com/mchdoo"><i class="devicon-github-plain"></i></a>
-        <a target="_blank" href="https://github.com/mchdoo"><img src="/youtube.svg" alt=""></a>
     </div>
 </section>
 
