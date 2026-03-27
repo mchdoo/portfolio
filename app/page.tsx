@@ -56,7 +56,7 @@ export default function Page() {
         <TabsContent value="about" className="flex flex-col gap-12">
           <div className="my-auto grid w-full grid-cols-5 items-start gap-4">
             <div className="col-span-4 col-start-2 lg:col-span-2 lg:col-start-2">
-              <h4 className="text-lg">
+              <h4 className="text-lg text-black">
                 La experiencia cinematográfica hoy se despliega en un rango
                 anchísimo. De videografía, pasando por diseño gráfico, hasta
                 software, mi trabajo se centra en generar experiencias
