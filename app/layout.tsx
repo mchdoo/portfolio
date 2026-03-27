@@ -7,6 +7,11 @@ import SmoothScrollProvider from "@/components/smooth-scroll-provider"
 
 const geist = Geist({ subsets: ["latin"], variable: "--font-sans" })
 
+export const metadata = {
+  title: "PEDRO MACHADO",
+  description: "portfolio of film and design. based in argentina.",
+}
+
 const fontMono = Geist_Mono({
   subsets: ["latin"],
   variable: "--font-mono",

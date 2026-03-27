@@ -22,7 +22,7 @@ export default function Page() {
       <section className="h-[calc(100vh-1.5rem)] w-screen"></section>
 
       <Tabs
-        defaultValue="about"
+        defaultValue="projects"
         className="relative grid min-h-screen place-items-center gap-4 bg-white py-12"
       >
         <div className="absolute top-0 flex h-6 w-full flex-row justify-between px-2 text-sm text-black uppercase">
