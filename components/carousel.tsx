@@ -32,7 +32,7 @@ const SLIDES = [
     logo: logoJipiVibes,
     alt: "Jipi Vibes Logo",
     title: "Jipi Vibes",
-    year: "2024–2025",
+    year: "2025",
     description: "Brand Identity · Website",
     className: "w-76",
     imgClassName: "aspect-square",
@@ -47,7 +47,7 @@ const SLIDES = [
     alt: "MasPlug Logo",
     title: "+PLUG",
     year: "2026",
-    description: "Brand Identity · Marketing",
+    description: "Brand Identity · Creative Direction",
     className: "w-76",
     imgClassName: "aspect-4/5",
     bg: "#000",
@@ -198,7 +198,7 @@ export default function ImageCarousel() {
                     </span>
                   )}
                   <span className="text-[10px] font-light text-muted-foreground">
-                    {slide.year} {slide.country}
+                    {slide.year} {slide.country.slice(0, 3).toUpperCase()}
                   </span>
                 </div>
                 <p className="text-xs text-gray-400">{slide.description}</p>

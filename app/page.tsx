@@ -8,7 +8,7 @@ export default function Page() {
     <>
       {/* Tu contenido va aquí, encima del video */}
       <VideoBackground />
-      <main className="absolute top-0 left-0 z-10 flex h-[calc(100vh-1.5rem)] w-full items-center justify-between p-6 leading-none font-medium text-white">
+      <main className="absolute top-0 left-0 z-10 flex h-[calc(100vh-1.5rem)] w-full items-center justify-between p-6 leading-none font-medium text-white select-none">
         <h1 className="leading-none">PEDRO MACHADO</h1>
 
         <div className="relative mx-4 h-8 w-full border-x">
@@ -18,8 +18,9 @@ export default function Page() {
         </div>
 
         <div className="flex flex-col uppercase">
-          <span className="inline-flex items-center gap-2">
-            <span className="block size-2 rounded-full bg-white"></span> Film
+          <span className="inline-flex items-center gap-1">
+            <span className="block size-2 animate-pulse rounded-full bg-white"></span>{" "}
+            Film
           </span>
           <span>Design</span>
         </div>
@@ -61,7 +62,7 @@ export default function Page() {
 
         <TabsContent value="about" className="flex flex-col gap-12">
           <div className="my-auto grid w-full grid-cols-5 items-start gap-4">
-            <div className="col-span-4 col-start-2 pr-4 lg:col-span-2 lg:col-start-2">
+            <div className="col-span-full col-start-1 px-4 lg:col-span-2 lg:col-start-2">
               <h4 className="text-lg text-black">
                 La experiencia cinematográfica hoy se despliega en un rango
                 anchísimo. De videografía, pasando por diseño gráfico, hasta
