@@ -9,7 +9,7 @@ const geist = Geist({ subsets: ["latin"], variable: "--font-sans" })
 
 export const metadata = {
   title: "PEDRO MACHADO",
-  description: "portfolio of film and design. based in argentina.",
+  description: "— portfolio — artista audiovisual",
 }
 
 const fontMono = Geist_Mono({
