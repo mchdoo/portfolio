@@ -8,9 +8,15 @@ export default function Page() {
     <>
       {/* Tu contenido va aquí, encima del video */}
       <VideoBackground />
-      <main className="absolute top-0 left-0 z-10 flex h-[calc(100vh-1.5rem)] w-full items-center justify-between p-6 font-medium text-white">
+      <main className="absolute top-0 left-0 z-10 flex h-[calc(100vh-1.5rem)] w-full items-center justify-between p-6 leading-none font-medium text-white">
         <h1 className="leading-none">PEDRO MACHADO</h1>
-        <span className="mr-4 h-px w-full bg-white"></span>
+
+        <div className="relative mx-4 h-8 w-full border-x">
+          <span className="absolute left-0 h-px w-full bg-white"></span>
+          <span className="absolute top-1/2 left-0 h-px w-full bg-white"></span>
+          <span className="absolute bottom-0 left-0 h-px w-full bg-white"></span>
+        </div>
+
         <div className="flex flex-col uppercase">
           <span className="inline-flex items-center gap-2">
             <span className="block size-2 rounded-full bg-white"></span> Film
@@ -19,13 +25,13 @@ export default function Page() {
         </div>
       </main>
 
-      <section className="h-[calc(100vh-1.5rem)] w-screen"></section>
+      <section className="h-[calc(100vh)] w-screen"></section>
 
       <Tabs
         defaultValue="projects"
         className="relative grid min-h-screen place-items-center gap-4 bg-white py-12"
       >
-        <div className="absolute top-0 flex h-6 w-full flex-row justify-between px-2 text-sm text-black uppercase">
+        <div className="bg-text absolute top-0 flex h-6 w-full flex-row justify-between px-2 text-sm text-black uppercase">
           <a
             href="https://www.instagram.com/pdromchado_"
             target="_blank"
@@ -38,7 +44,7 @@ export default function Page() {
             href="mailto:pedromachadofulcheri@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-black px-2 text-white"
+            className="px-2"
           >
             Email
             <span className="sr-only">Email</span>
@@ -75,7 +81,7 @@ export default function Page() {
           variant={"line"}
           className="absolute bottom-0 flex w-full flex-row justify-between px-2 text-black uppercase"
         >
-          <TabsTrigger value="about">ABOUT</TabsTrigger>
+          <TabsTrigger value="about">INFO</TabsTrigger>
           <TabsTrigger value="projects">PROYECTOS</TabsTrigger>
         </TabsList>
       </Tabs>
