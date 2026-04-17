@@ -21,7 +21,7 @@ const SLIDES = [
     year: "2025",
     description: "Dirección · Guión · Montaje",
     className: "w-72",
-    imgClassName: "aspect-[9/16]",
+    imgClassName: "aspect-[0.6]",
     bg: null,
   },
   {

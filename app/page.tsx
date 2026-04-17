@@ -17,12 +17,9 @@ export default function Page() {
           <span className="absolute bottom-0 left-0 h-px w-full bg-white"></span>
         </div>
 
-        <div className="flex flex-col uppercase">
-          <span className="inline-flex items-center gap-1">
-            <span className="block size-2 animate-pulse rounded-full bg-white"></span>{" "}
-            Film
-          </span>
-          <span>Design</span>
+        <div className="w relative flex flex-col text-right uppercase">
+          AUDIOVISUAL
+          <span>DESIGN</span>
         </div>
       </main>
 
@@ -40,6 +37,14 @@ export default function Page() {
           >
             Instagram
             <span className="sr-only">Instagram</span>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/machadope/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+            <span className="sr-only">LinkedIn</span>
           </a>
           <a
             href="mailto:pedromachadofulcheri@gmail.com"
