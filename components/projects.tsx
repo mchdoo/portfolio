@@ -173,7 +173,7 @@ const Projects = () => {
                 backgroundSize: "300% 300%",
               }}
             >
-              <div className="w-1/3 text-xl leading-none font-medium tracking-tight text-white">
+              <div className="w-1/2 text-xl leading-none font-medium tracking-tight text-white">
                 "{project.title}"{" "}
                 <span className="tracking-none font-normal">
                   ({project.category})

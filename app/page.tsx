@@ -64,12 +64,6 @@ export default function Page() {
       >
         <Projects />
 
-        <div className="relative mt-6 h-8 w-[calc(100vw-2rem)] border-x border-black">
-          <span className="absolute left-0 h-px w-full bg-black"></span>
-          <span className="absolute top-1/2 left-0 h-px w-full bg-black"></span>
-          <span className="absolute bottom-0 left-0 h-px w-full bg-black"></span>
-        </div>
-
         <h4 className="py-4 text-5xl leading-none tracking-tighter text-black">
           La experiencia cinematográfica hoy se despliega en un rango anchísimo.
           De videografía, pasando por diseño gráfico, hasta software, mi trabajo
@@ -116,6 +110,12 @@ export default function Page() {
           copyright 2026 pedro machado <br /> este sitio ha sido hecho con mucho
           amor
         </p>
+
+        <div className="relative mt-6 h-8 w-96 border-x border-black">
+          <span className="absolute left-0 h-px w-full bg-black"></span>
+          <span className="absolute top-1/2 left-0 h-px w-full bg-black"></span>
+          <span className="absolute bottom-0 left-0 h-px w-full bg-black"></span>
+        </div>
       </section>
     </>
   )
