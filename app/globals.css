@@ -122,6 +122,6 @@
     @apply bg-background text-foreground;
   }
   html {
-    @apply font-sans;
+    @apply no-scrollbar overflow-x-hidden font-sans;
   }
 }

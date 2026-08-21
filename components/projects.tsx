@@ -140,20 +140,23 @@ const Projects = () => {
                 </span>
               </Link>
             )}
-            <div className="relative flex w-full flex-col justify-between py-1">
+            <div className="relative flex w-full flex-col py-1">
               <h3 className="text-2xl leading-none font-medium tracking-tighter">
                 {slide.title}
-                <p className="mt-2 text-xs leading-none font-normal tracking-normal opacity-50">
-                  {slide.category} <br /> {slide.year} <br /> {slide.country}
-                </p>
               </h3>
+              <p className="mt-2 w-full text-sm leading-none">
+                {" "}
+                {slide.description}
+              </p>
+              <p className="mt-2 text-xs leading-none font-normal tracking-normal opacity-50">
+                {slide.category} <br /> {slide.year} <br /> {slide.country}
+              </p>
               {/* <span
               className="h-3 w-3"
               style={{
                 backgroundColor: slide.color,
               }}
             ></span> */}
-              <p className="w-full leading-none"> {slide.description}</p>
             </div>
           </div>
         ))}
@@ -173,7 +176,7 @@ const Projects = () => {
                 backgroundSize: "300% 300%",
               }}
             >
-              <div className="w-1/2 text-xl leading-none font-medium tracking-tight text-white">
+              <div className="w-3/4 text-xl leading-none font-medium tracking-tight text-white">
                 "{project.title}"{" "}
                 <span className="tracking-none font-normal">
                   ({project.category})
